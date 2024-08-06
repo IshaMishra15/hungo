@@ -1,0 +1,13 @@
+node_modules/
+
+# Logs
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Environment variables
+.env
