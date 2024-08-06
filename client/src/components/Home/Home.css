@@ -1,0 +1,28 @@
+about-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: rgb(230, 195, 201); /* Maintain existing background color */
+  font-family: Arial, sans-serif;
+}
+
+.about-us-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 2rem; /* Adjust spacing between image and content */
+}
+
+.about-us-image {
+  flex: 1; /* Ensure the image takes up appropriate space */
+  display: flex;
+  align-items: center; /* Center the image vertically within its container */
+  justify-content: center; /* Center image horizontally */
+  /* Optional: Adjust vertical alignment by adding margin-top */
+  margin-top: 3rem; /* Adjust this value as needed */
+}
+
+.about-us-image img {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners */
+}

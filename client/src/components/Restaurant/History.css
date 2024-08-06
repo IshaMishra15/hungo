@@ -1,0 +1,68 @@
+/* HistoryPage.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.history-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-title {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.item {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.order-info {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.no-orders-message {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+}

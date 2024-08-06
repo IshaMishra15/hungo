@@ -1,0 +1,70 @@
+.navbar {
+  position: fixed; /* Fixes the navbar at the top */
+  top: 0; /* Positions it at the top */
+  left: 0; /* Ensures it stretches to the left edge */
+  width: 98%; /* Full width of the viewport */
+  background-color: #f075aa;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.navbar-brand span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li {
+  margin: 0;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #891652;
+}
+
+.navbar-actions a {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+}
+
+.navbar-icon {
+  width: 24px; /* Set a fixed width for the SVG */
+  height: 24px; /* Set a fixed height for the SVG */
+  color: white; /* Set the SVG color */
+  margin-right: 8px; /* Space between the icon and text */
+}
+
+.logout-link {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+.navbar-actions a:hover {
+  color: #891652;
+}
+.navbar-actions button {
+  background-color: #f075aa;
+}
+.logout-link span {
+  margin-bottom: 0; /* Ensure there’s no extra margin */
+}
